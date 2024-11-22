@@ -1,0 +1,24 @@
+ *{
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+.card{
+    display: flex;
+    box-shadow: 2px 2px 2px gray;
+    
+
+}
+@media  only screen and(max-width:726px){
+   body{ 
+    overflow:auto ;
+
+   }
+}
+   
+    /* margin-right: 10px !important; */
+   
+
+

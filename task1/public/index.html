@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+    <title>task7</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <h1 class="text-center text-primary p-4">STUDENT'S INFORMATION</h1>
+        <div class=" row-lg-12  d-flex mx-auto p-6">
+            <div class="col-lg-4  h=100px">
+                <div class="card ">
+                     <h3 class="card-header bg-info text-center text-white">BASIC INFORMATION</h3> 
+                    <div class="card-body">
+                        <label for="name" class="form-label"><b>UserName:</b></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Username"> 
+                        <label for="gender" class="form-label"><b>Gender:</b></label><br>
+                        <input type="radio" class="form-check-input-md" id="male" name="gender">
+                        <label for="male" class="form-check-label">Male</label>&nbsp;
+                        <input type="radio" class="form-check-input-md" id="female" name="gender"> 
+                        <label for="female" class="form-check-label">Female</label> &nbsp;
+                        <input type="radio" class="form-check-input-md" id="others" name="gender">  
+                        <label for="female" class="form-check-label">Others</label>
+                        <br>
+                        <label for="email" class="form-label"><b>Email ID:</b></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email-ID">
+                        <label for="mobile" class="form-label"><b>Mobile No:</b></label>
+                        <input type="number" class="form-control" id="mobile" name="mobile" placeholder="00000-00000">
+                        <label for="dob" class="form-label"><b>Date Of Birth:</b></label>
+                        <input type="date" class="form-control" id="dob" name="dob">
+                        <label for="religion" class="form-label"><b>Religion:</b></label>
+                        <select id="religion" class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>Christian</option>
+                            <option>Hindu</option>
+                            <option>buddha</option>
+                        </select>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4  h=100px">
+                <div class="card " style="height: 503px">
+                    <h3 class="card-header bg-info text-white text-center">ACADEMIC</h3>
+                    <div class="card-body">
+                        <label for="Degree" class="form-label"><b>Degree</b></label>
+                        <select id="Degree" class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>MCA</option>
+                            <option>MBA</option>
+                            <option>ME</option>
+                        </select>
+                        <label for="Branch" class="form-label"><b>Branch</b></label>
+                        <select id="branch" class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>Computer Application</option>
+                            <option>Automation and Robotics</option>
+                            <option>Power Electricals</option>
+                        </select>
+                        <label for="Year" class="form-label"><b>Year</b></label>
+                        <select id="Year" class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>2022-24</option>
+                            <option>2021-23</option>
+                            <option>2020-22</option>
+                            <option>2019-21</option>
+                        </select>
+                        <label for="Semester" class="form-label"><b>Semester</b></label>
+                        <select id="Semester" class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>I</option>
+                            <option>II</option>
+                            <option>III</option>
+                            <option>IV</option>
+                        </select>
+                        <label for="Admission" class="form-label"><b>Admission</b></label>
+                        <select id="Admission"  class="form-control">
+                            <option active>CHOOSE</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                        <label for="checkbox" class="form-label"><b>Language Known</b></label><br>
+                        <input type="checkbox" class="form-check-input-md" id="tamil" name="lang">
+                        <label  for="checkbox"class="form -check-label">Tamil</label>&nbsp;
+                        <input type="checkbox" class="form-check-input-md" id="english" name="lang">
+                        <label for="checkbox" class="form-check-label" >English</label>&nbsp;
+                        <input type="checkbox" class="form-check-input-md" id="hindi" name="lang">
+                        <label for="checkbox" class="form-check-label">Hindi</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  h=110px">
+                <div class="card ">
+                    <h3 class="card-header bg-info text-white text-center p-2">PARENT INFORMATION</h3>
+                    <div class="card-body">
+                        <label for="father" class="form-label p-1"><b>Father's Name:</b></label>
+                        <input type="text" class="form-control" id="Father" name="Father" placeholder="Enter Father's name">
+                        <label for="Mother" class="form-label p-1"><b>Mother's Name:</b></label>
+                        <input type="text" class="form-control" id="Mother" name="Mother" placeholder="Enter Mother's name">
+                        <label for="father job" class="form-label p-2"><b>Father Occupation:</b></label>
+                        <input type="text" class="form-control" id="father job" name="father job" placeholder="Enter Father Occupation">
+                        <label for="income" class="form-label p-1"><b>Father Income</b></label>
+                        <input type="number" class="form-control" id="income" name="income" placeholder="Enter Father Income">
+                        <label for="contact" class="form-label p-2"><b>Contact no</b></label>
+                        <input type="number" class="form-control" id="contact" name="contact" placeholder="Enter Contact No">
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end p-4" style="margin-right: 10px;">
+        <button type="submit " class="btn btn-success">SUBMIT</button>
+        </div>
+    </div>
+
+</body>
+</html>
