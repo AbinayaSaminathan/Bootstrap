@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>task3</title>
+</head>
+<body class="container-fluid p-0" data-bs-spy="scroll" data-bs-target="#navbar-example">
+    
+    <nav id="navbar-example" class="navbar navbar-expand-sm bg-dark navbar-dark text-white fixed-top">
+    <div class="container-fluid">
+            <div class="nav-brand text-white" href="#" ><b>START BOOTSTRAP</b></div>
+            <button class="navbar-toggler text-white" data-bs-target="#navbar" type="button" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <ul class="navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link g-5" style="color:white" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link g-5" style="color:white" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link g-5" style="color:white" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="image p-5 bg-success" style=" height: 800px">
+            <img src="assets/avatar.svg" class=" d-block mx-auto" style="height: 250px;margin-top:100px; width: 250px;">
+            <h1 style="color: white; text-align: center;font-size: 40px;margin-top: 20px;">START BOOTSTRAP</h1>
+            <div class="d-flex justify-content-center mb-3">
+            <span class=" rounded-pill bg-light mt-3 " style="height: 5px;width: 100px;"></span>
+            <i class="fa-solid fa-star" style="color: white;font-size: 30px;"></i>
+                <span class="rounded-pill bg-light  mt-3" style="width:100px;height:5px"></span>
+            </div>
+            <p class="text-center p-1 text-white">Graphics Artist-Web Designer-Illustator</p>
+        </div>
+        <div class="item1" id="portfolio">
+        <h1 style="text-align: center; padding-top:50px;font-size: 35px;">PORTFOLIO</h1>
+        <div class="d-flex justify-content-center mb-3">
+            <span class=" rounded-pill bg-dark mt-3 " style="height:5px;width: 100px;"></span>
+            <i class="fa-solid fa-star" style="font-size: 30px;"></i>
+                <span class="rounded-pill bg-dark  mt-3" style="width:100px;height:5px"></span>
+        </div>
+        <div class="row mt-3 mx-auto g-3">
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/cabin.png" style="height:100%;width:100%;border-radius: 15px;" data-bs-toggle="modal" data-bs-target="#cabin">
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/cake.png " style="height:100%;width:100%;border-radius: 15px;" data-bs-toggle="modal" data-bs-target="#cake">
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/circus.png" style="height:100%;width:100%; border-radius: 15px;" data-bs-toggle="modal" data-bs-target="#circus">
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/game.png"  style="height:100%;width:100%;border-radius: 15px" data-bs-toggle="modal" data-bs-target="#game">
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/safe.png" style="height:100%;width:100%;border-radius: 15px" data-bs-toggle="modal" data-bs-target="#safe">
+            </div>
+            <div class="col-sm-4 col-md-6 col-lg-4 p-3">
+                <img src="assets/submarine.png" style="height:100%;width:100%;border-radius: 15px" data-bs-toggle="modal" data-bs-target="#submarine">
+            </div>
+        </div>
+        <div class="modal fade" id="cabin">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border:none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">CABIN</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black; font-size: 30px;"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/cabin.png" style="border-radius: 15px;width:100%" class=" d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam repellat aliquam natus laudantium nostrum inventore tempora, optio harum nam, laboriosam, expedita quos commodi amet vel. Vitae eveniet excepturi impedit.</p>
+                        <button type="button" class="btn btn-danger d-block mx-auto" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div class="modal fade" id="cake">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border: none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">CAKE</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black; font-size: 30px;"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/cake.png" style="border-radius: 15px;width: 100%;"
+                            class="d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Hic fuga architecto illum expedita excepturi tenetur labore, consectetur ex delectus
+                            reiciendis, aspernatur vitae quos! Animi molestias vel natus optio? Aut, similique!
+                        </p>
+                        <button type="button" class="btn btn-danger d-block mx-auto"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="circus">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border: none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">CIRCUS</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black; font-size: 30px;"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/circus.png" style="border-radius: 15px;width: 100%;"
+                            class="d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, atque ullam. Eum exercitationem corrupti quod, repellat, reprehenderit unde dolorum illum sapiente odit praesentium veniam itaque numquam cupiditate molestiae alias quasi.
+                        </p>
+                        <button type="button" class="btn btn-danger d-block mx-auto"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="game">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border: none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">GAME</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black; font-size: 30px;"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/game.png" style="border-radius: 15px;width: 100%;"
+                            class="d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint, error quibusdam soluta facilis, tenetur explicabo, dolorem aliquam numquam possimus culpa unde hic laborum. Ipsa fugit dicta perspiciatis consectetur id.
+                        </p>
+                        <button type="button" class="btn btn-danger d-block mx-auto"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="safe">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border: none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">SAFE</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black;font-size:30px"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/safe.png" style="border-radius: 15px;width: 100%;"
+                            class="d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laudantium, nostrum quaerat aperiam quod sunt libero ipsum autem nisi consectetur ducimus, ipsam provident explicabo sint magni labore fugiat? Maxime, magnam.
+                        </p>
+                        <button type="button" class="btn btn-danger d-block mx-auto"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="submarine">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="border: none;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3 class="text-center text-dark">SUBMARINE</h3>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                            <i class="fa-solid fa-star" style="color:black;font-size: 30px;"></i>
+                            <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                        </div>
+                        <img src="assets/submarine.png" style="border-radius: 15px;width: 100%;"
+                            class="d-block mx-auto"><br>
+                        <p class="text-center" style="opacity: 0.8;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem recusandae vitae reiciendis enim architecto id voluptatum, omnis dolorum, quam deserunt necessitatibus ipsam sint quisquam? Ullam suscipit obcaecati et nam quia.
+                        </p>
+                        <button type="button" class="btn btn-danger d-block mx-auto"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+         <div class="image3 bg-success p-3 " id="about">
+            <h2 class="text-center text-white mt-4">ABOUT</h2>
+            <div class="d-flex justify-content-center mb-3">
+                <span class="rounded-pill bg-light mt-3" style="width:100px;height:5px"></span>
+                <i class="fa-solid fa-star" style="color:white;font-size: 30px;"></i>
+                <span class="rounded-pill bg-light mt-3" style="width:100px;height:5px"></span>
+            </div>
+        <div class="row p-4">
+                <div class="col-sm-6" style="color: white;">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</p>
+            </div>
+            <div class="col-sm-6" style="color: white;">
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+        </div>
+        <div class="mb-3">
+            <button type="button" class="free btn btn-success mx-auto d-block border-light p-2"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                    <path
+                        d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                </svg> Free
+                download</button>
+        </div>
+        </div>
+        <div class="image1 mx-auto p-3" id="contact">
+            <h2 class="text-center" style="font-size: 35px; padding-top: 50px;">CONTACT</h2>
+            <div class="d-flex justify-content-center mb-3">
+                <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+                <i class="fa-solid fa-star" style="font-size: 30px;"></i>
+                <span class="rounded-pill bg-dark mt-3" style="width:100px;height:5px"></span>
+            </div>
+    <form style="margin-left: 20%; margin-right: 20%; border-radius: 10px; padding-bottom: 30px; ">
+        <div class="form-floating">
+            <input type="text" class="form-control mt-3 mb-3" style="box-shadow: 1px 1px 1px;" id="name" name="name" placeholder="Fullname">
+            <label for="Fullname">Fullname</label>
+        </div>
+        <div class="form-floating">
+            <input type="email" class="form-control mt-3 mb-3" style="box-shadow: 1px 1px 1px;" id="email" name="email" placeholder="Email">
+            <label for="email">Email</label>
+        </div>
+        <div class="form-floating">
+            <input type="number" class="form-control mt-3 mb-3" style="box-shadow: 1px 1px 1px;" id="number" name="number" placeholder="Phonenumber">
+            <label for="number">Phonenumber</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control mt-3 mb-3" style="box-shadow:1px 1px 1px" row="3" id="message"
+            name="message" placeholder="Message"></textarea>
+        <label for="message" class="form-label">Message</label>
+    </div>
+        <button type="button" id="btn" name="btn" style="border-radius: 5px; background-color: green; color: white;height: 35px;width: 70px;border: none;">Send</button>
+    </form>
+    </div>
+    <div class="row p-3 mx-auto" style="background-color: darkblue;color: white;font-size: 15px;">
+        <div class="col-sm-4 p-3 text-center">
+            <h3>Location</h3>
+            <p>2215 John deniel Drive Clark,MO 65243</p>
+        </div>
+        <div class="col-sm-4 p-3 text-center ">
+            <h3>Around The World</h3>
+            <div class="d-flex app justify-content-center">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #f5f7fa;font-size: 25px; height: 50px;width: 50px;"></i> </a>
+           <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter" style="color: #eef1f7;font-size: 25px;height: 50px;width: 50px;"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in" style="color: #f0f4f9;font-size: 25px;height: 50px;width: 50px;"></i></a>
+            <a href="https://www.globe.gov/" ><i class="fa-solid fa-globe" style="color: #f2f4f8;font-size: 25px;height: 50px;width: 50px;"></i></a>
+            </div>
+        </div>
+
+        <div class="col-sm-4 p-3 text-center">
+            <h3>About Freelencer</h3>
+            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by</p>
+            <a class="link" href="#">Start Bootstrap</a>
+        </div>
+    </div>
+        <div class="item2 p-3 text-center" style="background-color: black;color: white;">
+            <p>Copyright © Your Website 2024</p>
+        </div>
+</body>
+</html>
